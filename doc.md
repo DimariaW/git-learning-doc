@@ -22,4 +22,14 @@ git reset --hard commit_id #回退版本， HEAD,HEAD^,HEAD^^,HEAD~100
 git log # commit log
 git reflog # command log
 ```
+# version 4.0
+```
+缓存区 ↔ 库(HEAD)：git diff --cached
+
+工作区 ↔ 缓存区：git diff
+
+工作区 ↔ 库(HEAD)：git diff HEAD -- filename
+
+库 ↔ 库：git diff 243550a 24bc01b filename     #较旧的id 较新的id
+```
 
