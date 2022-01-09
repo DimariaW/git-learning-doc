@@ -15,5 +15,11 @@ git restore filename #discard changes
 git diff #查看修改
 ```
 
+# version 3.0
 
+```
+git reset --hard commit_id #回退版本， HEAD,HEAD^,HEAD^^,HEAD~100
+git log # commit log
+git reflog # command log
+```
 
