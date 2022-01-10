@@ -21,6 +21,7 @@ git diff #查看修改
 git reset --hard commit_id #回退版本， HEAD,HEAD^,HEAD^^,HEAD~100
 git log # commit log
 git reflog # command log
+git log --graph --pretty=oneline --abbrev-commit
 ```
 # version 4.0
 ```
