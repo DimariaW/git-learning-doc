@@ -32,4 +32,10 @@ git reflog # command log
 
 库 ↔ 库：git diff 243550a 24bc01b filename     #较旧的id 较新的id
 ```
+# version 5.0
+```
+git remote add origin git@github.com:DimariaW/git-learning-doc.git #远程仓库关联
+git branch -M main #当前分支改名
+git push -u origin main #推送
+```
 
