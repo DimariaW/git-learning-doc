@@ -45,5 +45,6 @@ git push -u origin main #推送
 git branch dev #create dev branch
 git switch dev #switch to dev
 git branch [-r-a] #list all or remote or local branches
+git merge dev: main 分支merge dev分支
 ```
 
