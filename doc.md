@@ -47,4 +47,6 @@ git branch dev #create dev branch
 git switch dev #switch to dev
 git branch [-r-a] #list all or remote or local branches
 ```
-
+# restore
+git restore file : 撤销工作区的修改，同步至到暂存区
+git restore --staged file: 撤销暂存区的修改，到版本库
