@@ -49,5 +49,7 @@ git branch [-r-a] #list all or remote or local branches
 git merge dev: main 分支merge dev分支
 ```
 # restore
+```
 git restore file : 撤销工作区的修改，同步至到暂存区
 git restore --staged file: 撤销暂存区的修改，到版本库
+```
